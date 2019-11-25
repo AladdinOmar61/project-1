@@ -1,4 +1,4 @@
-----BETCH: Choose Between a Matching or Betting Card Game!----
+----BETCH: Choose Between a Matching or Betting Card Game! ("BETCH-a can't beat both games first try!")----
 Page opens to a screen which asks you which two card games you want to play: matching or higher-or-lower?
 
 --MATCHING GAME--
@@ -9,7 +9,9 @@ One card will show up along with a prompt asking you if you think the next card 
 
 --API--
 I am using the playing cards API, and I plan to use it for creating, shuffling and drawing cards from a deck.
-API SAMPLE: file:///Users/aladdinomar/ga/week2/open-weather-api-lab/index.html
+--API SAMPLES-- 
+- Shuffle a deck of cards: https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1
+- Drawing a card: https://deckofcardsapi.com/api/deck/new/draw/?count=1
 
 --FEATURES REQUIRED--
 - a timer
@@ -23,4 +25,4 @@ API SAMPLE: file:///Users/aladdinomar/ga/week2/open-weather-api-lab/index.html
 - a whole winning screen (instead of an alert for example)
 - confetti effects for the wining screen
 - adding a joker card to high-low game (joker will have the highest value in this game) that gives you a chance to redeem more points somehow(idea still WIP)
-* add a slogan: "BETCH-a can't beat both games first try!
+- add a card flipping animation
