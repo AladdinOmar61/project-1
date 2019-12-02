@@ -26,3 +26,4 @@ I am using the playing cards API, and I plan to use it for creating, shuffling a
 - confetti effects for the wining screen
 - adding a joker card to high-low game (joker will have the highest value in this game) that gives you a chance to redeem more points somehow(idea still WIP)
 - add a card flipping animation
+- red highlight around card if incorrect guess, green for correct

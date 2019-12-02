@@ -62,8 +62,8 @@ async function renderCards(card) {
     let pic = card.images.svg;
     // console.log("image");
     cardImg.setAttribute("src", pic);
-    cardImg.setAttribute("width", "200");
-    cardImg.setAttribute("height", "300");
+    cardImg.setAttribute("width", "250");
+    cardImg.setAttribute("height", "350");
     // console.log("end");
     // }
 }
@@ -83,6 +83,7 @@ function compare(card1, card2) {
 function makeChoice(option) {
     // will the next card be higher or lower than current card?
     userChoice = option;
+    scoreBoard.innerHTML = 0;
     // let currScore = 0;
     if (option === correctChoice(currCard, nextCard)) {
         score++;
@@ -125,7 +126,7 @@ function startRound() {
     }
 
     function endGame() {
-        if (score >= 23) {
+        if (score >= 15) {
             alert('You son of a BET-CH, you won! Thanks for playing')
         } else {
             alert('You lost! Better luck next time!')
